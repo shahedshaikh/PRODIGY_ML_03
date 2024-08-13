@@ -1,0 +1,23 @@
+House Price Prediction Using Linear Regression
+Description:
+This notebook demonstrates the implementation of a linear regression model to predict house prices based on three key features: square footage, the number of bedrooms, and the number of bathrooms. The steps covered in this notebook include:
+
+Data Loading and Exploration:
+
+Introduction of a synthetic dataset representing house features and their corresponding prices.
+Overview of the data structure and basic statistics.
+Data Preparation:
+
+Separation of the dataset into features (SquareFootage, Bedrooms, Bathrooms) and the target variable (Price).
+Splitting the data into training and testing sets for model evaluation.
+Model Training:
+
+Implementation of a linear regression model using scikit-learn.
+Training the model on the training data.
+Model Evaluation:
+
+Predicting house prices using the test data.
+Calculation of Mean Squared Error (MSE) and R-squared (R²) to evaluate model performance.
+Model Interpretation:
+
+Examination of the model's coefficients to understand the impact of each feature on house prices.
