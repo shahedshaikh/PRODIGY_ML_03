@@ -1,0 +1,35 @@
+Description: Customer Segmentation Using K-means Clustering
+
+This project applies a K-means clustering algorithm to segment customers of a retail store based on their purchase history, 
+specifically focusing on their annual income and spending score. By analyzing these key features, the model groups customers 
+into distinct clusters, each representing a unique customer segment with similar purchasing behaviors.
+
+Purpose:
+Customer Segmentation: The primary objective is to identify and group customers into meaningful segments that reflect their
+ purchasing patterns and financial capacity. This segmentation enables the retail store to develop tailored marketing strategies 
+ and personalized offers for each customer group.
+
+Business Insights: The model provides valuable insights into customer behavior, helping the store understand how different 
+segments of customers interact with its products and services. This information can guide strategic decisions related to 
+inventory management, pricing, and promotional efforts.
+
+Resource Optimization: By targeting specific customer segments, the store can optimize the allocation of resources, ensuring 
+that marketing efforts, stock, and staff are aligned with the needs of the most profitable customer groups. This can lead to 
+increased efficiency and higher customer satisfaction.
+
+Features:
+Data Standardization: The model standardizes the selected features (annual income and spending score) to ensure that all data 
+points contribute equally to the clustering process.
+
+Elbow Method for Optimal Clusters: The Elbow method is used to determine the optimal number of clusters, ensuring that the model 
+effectively captures the natural grouping of customers without overfitting.
+
+Cluster Analysis: The model calculates the mean values of the features for each cluster, allowing for a detailed analysis of the
+ characteristics that define each customer segment.
+
+PCA Visualization: Principal Component Analysis (PCA) is employed to reduce the dimensionality of the data and visualize the clusters 
+in a 2D space, making it easier to interpret the results and understand the separation between different customer groups.
+
+Outcome:
+This customer segmentation model provides the retail store with actionable insights into customer behavior, enabling the development of 
+targeted marketing campaigns and personalized customer experiences. By leveraging these insights, the store can enhance customer satisfaction, improve resource allocation, and ultimately drive business growth.
